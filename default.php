@@ -3,7 +3,7 @@
 $PluginInfo['PurchaseKarma'] = array(
    'Name' => 'Purchase Karma',
    'Description' => "Allows users to purchace Karma",
-   'Version' => '0.1.2b',
+   'Version' => '0.1.3b',
    'RequiredPlugins' => array('MarketPlace' => '0.1.9b','KarmaBank' =>'0.9.7.3b'),
    'RequiredApplications' => array('Vanilla' => '2.1'),
    'Author' => 'Paul Thomas',
