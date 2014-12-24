@@ -48,6 +48,8 @@ class PurchaseKarma extends Gdn_Plugin {
     }
     
     public function MarketPlace_LoadMarketPlace_Handler($Sender){
+        if(!Gdn::Session()->IsValid())
+            return;
         $Options = array(
             'Meta'=>array('Quantity','KarmaUnit'),
             'RequiredMeta'=>array('Quantity','KarmaUnit'),
